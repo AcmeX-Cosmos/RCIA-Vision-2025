@@ -1,0 +1,10 @@
+# rcia_bringup/config/serial_driver_params.yaml
+serial_driver_node:
+  ros__parameters:
+    simulate_mode: true
+    device: /dev/ttyACM0
+    baudrate: 115200
+    flow_control: 0
+    data_bits: 8
+    stop_bits: 1
+    parity: 0

@@ -1,0 +1,17 @@
+camera_node:
+  ros__parameters:
+    resolution_width: 1280
+    resolution_height: 1024
+    pixel_format: "bgr8"
+    camera_frame_id: "camera_optical_frame"
+    frame_rate: 30.0
+    camera_matrix:
+      rows: 3
+      cols: 3
+      data: [1557.112832049196, 0, 640.0984500155263, 
+              0, 1735.09586187522, 512.0025696784391, 
+              0.0, 0.0, 1.0]
+    dist_coeffs:
+      rows: 1
+      cols: 5
+      data: [ 0.02379281673136642,  -2.931918199663403,   -0.0001751467257614772,  0.001130183050415235,  42.30457985450274]

@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    Ba_Param:
+      trans_vector_optimization: 2.5
+      yaw_optimization: 0.05
+      maximum_yaw: 45.0
+      minimum_yaw: -45.0
+

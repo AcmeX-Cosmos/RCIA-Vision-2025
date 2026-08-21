@@ -1,0 +1,23 @@
+/**:
+  ros__parameters:
+    # 识别相关
+    debug_mode_enabled: false
+
+    # 颜色相关
+    enemy_color: "red"
+    red_thresh: 75 
+    blue_thresh: 75
+    
+    # 几何约束
+    tolerance: 1.25     
+    max_height_ratio: 1.5
+    min_armor_ratio: 1.5
+    max_armor_ratio: 8.0
+    armor_type_thresh: 3.6
+    angle_diff_thresh: 7.5
+
+    # 过滤轮廓
+    min_contour_area: 5.0
+    area_valid_ratio: 0.5
+    max_aspect_ratio: 2.5
+    max_contours: 50

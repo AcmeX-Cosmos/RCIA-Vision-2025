@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rcia_robot_description</name>
+  <version>1.0.0</version>
+  <description>Robot URDF description package containing gimbal components.</description>
+  <maintainer email="AcmeX@foxmail.com">AcmeX</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>xacro</build_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <!-- 构建依赖 -->
+  <build_depend>urdf</build_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>urdf</exec_depend>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+  <name>rcia_camera_driver</name>
+  <version>0.1.0</version>
+  <description>ROS2 camera driver package using IMV SDK</description>
+  <maintainer email="AcmeX@foxmail.com">AcmeX</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS依赖 -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>OpenCV</depend>
+
+  <!-- 组件支持 -->
+  <build_depend>rclcpp_components</build_depend>
+  <exec_depend>rclcpp_components</exec_depend>
+
+<export>
+  <build_type>ament_cmake</build_type>
+  <rclcpp_components>
+    <plugin>${prefix}/lib/libcamera_driver.so</plugin>
+  </rclcpp_components>
+</export>
+</package>

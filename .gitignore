@@ -1,0 +1,83 @@
+# ROS 2 / colcon
+/build/
+install/
+log/
+.colcon/
+.catkin_tools/
+.ros/
+*.bag
+*.db3
+*.mcap
+*.sqlite3
+compile_commands.json
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+*.dir/
+.ninja_deps
+.ninja_log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Models and generated datasets
+*.pth
+*.pt
+*.onnx
+*.engine
+*.pb
+*.h5
+data/raw/
+data/processed/
+data/dataset/
+
+# Logs and runtime files
+*.log
+run.log
+*.out
+*.err
+*.pid
+*.tmp
+
+# IDE / editor
+.vscode/
+.idea/
+.obsidian/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local OS / tooling
+.python-version
+.env
+.env.*
+!.env.example
+
+# Legacy experiments and local-only artifacts
+docs/legacy/vision_utils/RCIA_Vision/Temp.txt
+docs/legacy/vision_utils/RCIA_Vision/websocket C.py
+docs/legacy/vision_utils/RCIA_Vision/websocket S.py
+docs/legacy/vision_utils/RCIA_Vision/lines_with_intersection.png

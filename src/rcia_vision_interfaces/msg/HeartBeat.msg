@@ -1,0 +1,2 @@
+int32 heartbeat_id
+builtin_interfaces/Time stamp
